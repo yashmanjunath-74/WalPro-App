@@ -11,8 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'WalPro',
       theme: ThemeData(
+        brightness: Brightness.dark,
         primaryColor: Colors.black,
         useMaterial3: true,
       ),
